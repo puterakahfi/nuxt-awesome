@@ -1,8 +1,17 @@
 import pkg from './package'
 
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/nuxt-awesome/'
+        }
+      }
+    : {}
+
 export default {
   mode: 'spa',
-
+  routerBase,
   /*
    ** Headers of the page
    */
