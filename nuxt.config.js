@@ -22,13 +22,54 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    script: [
+      {
+        src: 'stisla/modules/jquery.min.js',
+        type: 'text/javascript'
+      },
+      {
+        src: 'stisla/js/popper.js',
+        type: 'text/javascript'
+      },
+      {
+        src: 'stisla/modules/bootstrap/js/bootstrap.min.js',
+        type: 'text/javascript'
+      },
+
+      {
+        src: 'stisla/modules/nicescroll/jquery.nicescroll.min.js',
+        type: 'text/javascript'
+      },
+      {
+        src: 'stisla/js/stisla.js',
+        type: 'text/javascript'
+      }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'stisla/modules/bootstrap/css/bootstrap.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'stisla/css/style.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'stisla/css/components.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'stisla/modules/fontawesome/css/all.min.css'
+      }
+    ]
   },
 
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: 'red' },
 
   /*
    ** Global CSS
@@ -45,9 +86,7 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    '@nuxtjs/axios'
   ],
   /*
    ** Axios module configuration
@@ -70,7 +109,10 @@ export default {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
+          options: {
+            fix: true
+          }
         })
       }
     }
