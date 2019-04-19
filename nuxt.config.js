@@ -1,3 +1,4 @@
+import webpack from 'webpack'
 import pkg from './package'
 
 const routerBase =
@@ -22,48 +23,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    script: [
-      {
-        src: 'stisla/modules/jquery.min.js',
-        type: 'text/javascript'
-      },
-      {
-        src: 'stisla/js/popper.js',
-        type: 'text/javascript'
-      },
-      {
-        src: 'stisla/modules/bootstrap/js/bootstrap.min.js',
-        type: 'text/javascript'
-      },
-
-      {
-        src: 'stisla/modules/nicescroll/jquery.nicescroll.min.js',
-        type: 'text/javascript'
-      },
-      {
-        src: 'stisla/js/stisla.js',
-        type: 'text/javascript'
-      }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: 'stisla/modules/bootstrap/css/bootstrap.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'stisla/css/style.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'stisla/css/components.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'stisla/modules/fontawesome/css/all.min.css'
-      }
-    ]
+    script: []
   },
 
   /*
@@ -86,7 +46,8 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-buefy'
   ],
   /*
    ** Axios module configuration
@@ -102,6 +63,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
+
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
