@@ -11,8 +11,8 @@ const routerBase =
     : {}
 
 export default {
+  ...routerBase,
   mode: 'spa',
-  routerBase,
   /*
    ** Headers of the page
    */
