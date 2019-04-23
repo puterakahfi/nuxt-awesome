@@ -21,11 +21,10 @@
 
           <a
             href="https://www.vuemastery.com/pdf/Nuxtjs-Cheat-Sheet.pdf"
-            class="button is-success"
+            class="button is-success is-medium"
             target="_blank"
           >
             <fa :icon="['fas', 'download']" /> &nbsp;Download Nuxt Cheatsheet
-            From Vue Mastery
           </a>
         </div>
       </section>

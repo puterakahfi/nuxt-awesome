@@ -49,14 +49,14 @@
             <a
               href="https://nuxtjs.org/"
               target="_blank"
-              class="button is-primary"
+              class="button is-success is-small"
             >
-              <strong>Official</strong>
+              <strong>Official Site</strong>
             </a>
             <a
               href="https://github.com/puterakahfi/nuxt-awesome"
               target="_blank"
-              class="button is-light"
+              class="button is-light is-small"
             >
               <fa :icon="['fab', 'github']" />&nbsp;Github
             </a>
