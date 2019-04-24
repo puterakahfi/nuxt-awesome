@@ -68,7 +68,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      showMenu: false
+    }
+  }
+}
 </script>
 <style scoped>
 .navbar-light .navbar-nav .nav-link {
