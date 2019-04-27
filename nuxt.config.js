@@ -34,7 +34,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['bulma-helpers/css/bulma-helpers.min.css'],
+  css: [
+    'assets/scss/main',
+    'bulma-helpers/css/bulma-helpers.min.css'],
 
   /*
    ** Plugins to load before mounting the App

@@ -6,14 +6,6 @@
       </slot>
     </nav>
 
-    <header class="head">
-      <slot name="header">
-        <div class="container">
-          <Hero class="has-padding-5 has-margin-5" />
-        </div>
-      </slot>
-    </header>
-
     <slot name="content">
       <nuxt />
     </slot>
@@ -29,12 +21,10 @@
 <script>
 import Navbar from '~/components/Navbar.vue'
 import Footer from '~/components/Footer.vue'
-import Hero from '~/components/Hero.vue'
 export default {
   components: {
     Navbar,
-    Footer,
-    Hero
+    Footer
   }
 }
 </script>

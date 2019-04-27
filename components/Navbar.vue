@@ -1,10 +1,10 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item colorcheme vue second" href="https://bulma.io">
+      <NuxtLink class="navbar-item colorcheme vue second" to="/">
         Nuxtjs.
         <b class="colorcheme vue primary">Awesome</b>
-      </a>
+      </NuxtLink>
 
       <a
         role="button"
@@ -21,7 +21,7 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">Modules</a>
+        <nuxt-link to="/modules" class="navbar-item">Modules</nuxt-link>
         <a class="navbar-item">Starter Template</a>
         <a class="navbar-item">Tutorials</a>
         <a class="navbar-item">Series</a>
