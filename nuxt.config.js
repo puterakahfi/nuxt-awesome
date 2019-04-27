@@ -10,7 +10,17 @@ const routerBase =
       }
     : {}
 
+const baseUrl =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        env: {
+          baseURL: 'https://puterakahfi.github.io'
+        }
+      }
+    : {}
+
 export default {
+  ...baseUrl,
   ...routerBase,
   mode: 'spa',
   /*
@@ -34,9 +44,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    'assets/scss/main',
-    'bulma-helpers/css/bulma-helpers.min.css'],
+  css: ['assets/scss/main', 'bulma-helpers/css/bulma-helpers.min.css'],
 
   /*
    ** Plugins to load before mounting the App
