@@ -46,6 +46,7 @@
 
 <script>
 import Hero from '~/components/Hero.vue'
+import data from '~/static/data/recommended-modules.json' // Or wherever it is found
 
 export default {
   layout: 'default',
@@ -54,13 +55,13 @@ export default {
   },
   data() {
     return {
-      recModules: []
+      recModules: data
     }
   },
 
   async asyncData({ $axios }) {
-    const data = await $axios.$get('data/recommended-modules.json')
-    return { recModules: data }
+    // const data = await $axios.$get('data/recommended-modules.json')
+    //  return { recModules: data }
   }
 }
 </script>

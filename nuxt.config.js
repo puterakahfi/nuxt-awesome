@@ -10,10 +10,9 @@ const routerBase =
       }
     : {}
 
-const urlBase  =  process.env.DEPLOY_ENV === 'GH_PAGES' ? 'https://puterakahfi.github.io' : 'http://localhost:3000' ;
+//const urlBase  =  process.env.DEPLOY_ENV === 'GH_PAGES' ? 'https://puterakahfi.github.io' : 'http://localhost:3000' ;
 
 export default {
-
   ...routerBase,
   mode: 'spa',
   /*
@@ -72,9 +71,7 @@ export default {
   /*
    ** Axios module configuration
    */
-  axios: {
-    baseURL: urlBase
-  },
+  axios: {},
 
   /*
    ** Build configuration
