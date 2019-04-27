@@ -12,7 +12,7 @@
       <br />
       <div class="container">
         <h1 class="is-size-4 has-text-centered has-text-black-bis">
-          <strong>Recommended Nuxt Modules</strong>
+          <strong>Recommended Modules</strong>
         </h1>
         <br />
         <div class="columns is-multiline">
@@ -59,8 +59,8 @@ export default {
   },
 
   async asyncData({ $axios }) {
-    const data = await $axios.get('/data/recommended-modules.json')
-    return { recModules: data.data }
+    const data = await $axios.$get('data/recommended-modules.json')
+    return { recModules: data }
   }
 }
 </script>
