@@ -10,8 +10,13 @@ const routerBase =
       }
     : {}
 
+const urlBase  =  process.env.DEPLOY_ENV === 'GH_PAGES' ? 'https://puterakahfi.github.io' :  {}
 export default {
+
   ...routerBase,
+  env: {
+    baseUrl: urlBase
+  },
   mode: 'spa',
   /*
    ** Headers of the page
