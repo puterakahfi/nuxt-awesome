@@ -74,7 +74,9 @@ export default {
   /*
    ** Axios module configuration
    */
-  axios: {},
+  axios: {
+    baseUrl : urlBase
+  },
 
   /*
    ** Build configuration
