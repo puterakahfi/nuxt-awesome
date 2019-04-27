@@ -10,17 +10,7 @@ const routerBase =
       }
     : {}
 
-const baseUrl =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        env: {
-          baseURL: 'https://puterakahfi.github.io'
-        }
-      }
-    : {}
-
 export default {
-  ...baseUrl,
   ...routerBase,
   mode: 'spa',
   /*
@@ -79,9 +69,7 @@ export default {
   /*
    ** Axios module configuration
    */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
+  axios: {},
 
   /*
    ** Build configuration
