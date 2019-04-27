@@ -59,7 +59,7 @@ export default {
   },
 
   async asyncData({ $axios }) {
-    const data = await $axios.get('data/recommended-modules.json')
+    const data = await $axios.get('/data/recommended-modules.json')
     return { recModules: data.data }
   }
 }
