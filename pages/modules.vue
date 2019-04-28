@@ -49,10 +49,7 @@ export default {
     }
   },
 
-  async asyncData({ $axios }) {
-    const data = await $axios.get('data/modules.json')
-    return { modules: data.data }
-  },
+  async asyncData({ $axios }) {},
   methods: {
     getModules: function() {
       return this.modules
