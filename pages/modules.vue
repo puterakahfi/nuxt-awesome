@@ -40,10 +40,12 @@
 </template>
 
 <script>
+import data from '~/static/data/modules.json' // Or wherever it is found
+
 export default {
   data() {
     return {
-      modules: []
+      modules: data
     }
   },
 
