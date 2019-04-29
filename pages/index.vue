@@ -17,24 +17,30 @@
         <br />
         <div class="columns is-multiline">
           <div v-for="item in recModules" :key="item.id" class="column is-4">
-            <div class="card">
+            <div class="card has-equal-height">
               <div class="card-image"></div>
               <div class="card-content">
                 <div class="media">
                   <div class="media-content">
                     <p class="title is-4">{{ item.label }}</p>
-                    <p class="subtitle is-6">@johnsmith</p>
                   </div>
                 </div>
 
                 <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                  <a>@bulmaio</a>.
-                  <a href="#">#css</a>
-                  <a href="#">#responsive</a>
-                  <br />
+                  <p>{{ item.description }}</p>
+                  <b class="has-margin-top-5">{{ item.tags }}</b>
                 </div>
+                <a
+                  v-for="link in item.links"
+                  :key="link.label"
+                  :href="link.url"
+                  class="button is-small is-success has-margin-right-5"
+                  target="_blank"
+                >
+                  <fa :icon="[link.faIcon.type, link.faIcon.name]" />
+                  &nbsp;{{ link.label }}
+                </a>
+                &nbsp;&nbsp;
               </div>
             </div>
           </div>

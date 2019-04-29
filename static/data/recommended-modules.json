@@ -2,22 +2,101 @@
     {
         "id": "nuxt-axios",
         "label": "axios",
-        "image" :"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
-        "description": "Secure and Easy Axios integration with Nuxt.js. <br/>",
-        "tags": "#bootstrap #ui"
+        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
+        "description": "Secure and Easy Axios integration with Nuxt.js.",
+        "tags": "#rest #http",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/nuxt-community/axios-module",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://axios.nuxtjs.org/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
     },
     {
-        "id": "primary",
-        "label": "boostrap",
-        "image" : "https://bootstrap-vue.js.org/_nuxt/img/f0a8c9e.png",
+        "id": "vue-bootstrap",
+        "label": "vue boostrap",
+        "image": "https://bootstrap-vue.js.org/_nuxt/img/f0a8c9e.png",
         "description": " the most comprehensive implementations of Bootstrap V4 components and grid system .",
-        "tags": "#bootstrap #ui"
+        "tags": "#bootstrap #ui",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/bootstrap-vue/bootstrap-vue",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://bootstrap-vue.js.org/docs/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
     },
     {
-        "id": "primarys",
+        "id": "vue-buefy",
         "label": "buefy",
-        "image" : "https://buefy.org/static/img/buefy.1d65c18.png",
-        "description": "Buefy (pronounced /ˈbyo͞oˌfī/, like beau-fy) is a user interface component library made on top of two fresh but very well known frameworks, being them Vue.js and Bulma",
-        "tags": "#bulma #ui"
+        "image": "https://buefy.org/static/img/buefy.1d65c18.png",
+        "description": " user interface component library made on top of two fresh but very well known frameworks, being them Vue.js and Bulma",
+        "tags": "#bulma #ui",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/buefy/buefy",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://buefy.org/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
+    },
+    {
+        "id": "vue-auth",
+        "label": "Auth Module",
+        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
+        "description": " Authentication module for Nuxt.js",
+        "tags": "#authentication",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/nuxt-community/auth-module",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://auth.nuxtjs.org/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
     }
 ]

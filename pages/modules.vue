@@ -7,7 +7,7 @@
       <br />
       <div class="columns is-multiline">
         <div v-for="item in modules" :key="item.id" class="column is-4">
-          <div class="card">
+          <div class="card has-equal-height">
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
@@ -29,7 +29,6 @@
                 .
                 <a href="#">{{ item.tags }}</a>
                 <br />
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
               </div>
             </div>
           </div>
