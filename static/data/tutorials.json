@@ -5,23 +5,17 @@
         "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
         "description": "",
         "tags": "#bootstrap #ui",
+        "url": "",
         "links": [
             {
-                "label": "github",
-                "url": "https://github.com/nuxt-community/axios-module",
+                "label": "nuxt v.1",
+                "url": "#",
                 "faIcon": {
                     "type": "fab",
                     "name": "github"
                 }
-            },
-            {
-                "label": "docs",
-                "url": "https://axios.nuxtjs.org/",
-                "faIcon": {
-                    "type": "fas",
-                    "name": "file"
-                }
             }
+            
         ]
     },
     {
@@ -29,7 +23,7 @@
         "title": "Role Based Authorization for your Vue.js and Nuxt.js Applications Using vue-kindergarten",
         "image": "https://bootstrap-vue.js.org/_nuxt/img/f0a8c9e.png",
         "description": "",
-        "tags": "#bootstrap #ui",
+        "tags": "#auth #security",
         "links": [
             {
                 "label": "github",
@@ -50,7 +44,7 @@
         ]
     },
     {
-        "id": "primary",
+        "id": "primarye",
         "title": "Create and publish a Nuxt.js powered website on GitHub pages",
         "image": "https://buefy.org/static/img/buefy.1d65c18.png",
         "description": "",
@@ -75,11 +69,37 @@
         ]
     },
     {
-        "id": "primary",
+        "id": "primar4y",
         "title": "Debugging Nuxt.js with Visual Studio Code",
         "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
         "description": "",
-        "tags": "#bulma #ui",
+        "tags": "#vscode #debug  #tools ",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/nuxt-community/axios-module",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://axios.nuxtjs.org/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
+    },
+    {
+        "id": "developer.okta.com",
+        "title": "Tutorial: Build Universal Applications with Nuxt.js",
+        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
+        "description": "",
+        "url": "https://developer.okta.com/blog/2019/04/26/tutorial-build-universal-apps-with-nuxt",
+        "tags": "#vscode #debug  #tools ",
         "links": [
             {
                 "label": "github",
@@ -100,3 +120,4 @@
         ]
     }
 ]
+
