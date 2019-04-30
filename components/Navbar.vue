@@ -23,7 +23,7 @@
       <div class="navbar-start">
         <nuxt-link to="/modules" class="navbar-item">Modules</nuxt-link>
         <a class="navbar-item">Starter Template</a>
-        <a class="navbar-item">Tutorials</a>
+        <nuxt-link to="/tutorials" class="navbar-item">Tutorials</nuxt-link>
         <a class="navbar-item">Series</a>
         <a class="navbar-item">Tools</a>
         <a class="navbar-item">Showcase</a>
