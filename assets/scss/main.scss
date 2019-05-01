@@ -3,9 +3,12 @@
   box-shadow: none;
   border: 1px solid #f0f0f3;
   background-color: #fff;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04), 0 2px 20px 0 rgba(0, 0, 0, 0.06);
-}
 
+  &:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04),
+      0 2px 20px 0 rgba(0, 0, 0, 0.06);
+  }
+}
 
 .has-equal-height {
   height: 100%;
