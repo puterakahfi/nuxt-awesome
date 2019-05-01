@@ -2,8 +2,11 @@
   <div>
     <div class="container">
       <br />
+      <p class="help is-dark has-margin-5">
+        use <b>#</b> to find by tags, <b>@</b> to fine by date
+      </p>
 
-      <b-field label="Find tutorial">
+      <b-field label>
         <b-input
           v-model="name"
           placeholder="e.g. build blog with nuxtjs,  use #keyword for find by tags"
@@ -22,7 +25,7 @@
               <div class="media">
                 <div class="media-content">
                   <p class="subtitle is-7 has-text-grey-lighter">
-                    <strong>April 26, 2019</strong>
+                    <strong>{{ item.datePosted }}</strong>
                   </p>
 
                   <a
@@ -46,11 +49,6 @@
                     class="tag"
                     >{{ value }}</span
                   >
-                </div>
-
-                <div class="tags has-addons">
-                  <span class="tag is-dark">nuxt version</span>
-                  <span class="tag is-success">v.1</span>
                 </div>
               </div>
             </div>
@@ -95,6 +93,16 @@ export default {
       if (this.name.length > 0 && this.name.toString().charAt(0) === '#') {
         newData = this.tutorials.filter(item => {
           return item.tags.join(',').indexOf(this.name.toLowerCase()) > -1
+        })
+      }
+
+      if (this.name.length > 1 && this.name.toString().charAt(0) === '@') {
+        const keyword = this.name.substr(1)
+        newData = this.tutorials.filter(item => {
+          if (typeof item.datePosted !== 'undefined')
+            return (
+              item.datePosted.toLowerCase().indexOf(keyword.toLowerCase()) > -1
+            )
         })
       }
       return newData

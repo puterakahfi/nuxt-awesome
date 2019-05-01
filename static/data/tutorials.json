@@ -1,105 +1,12 @@
 [
     {
-        "id": "nuxt-axios",
-        "title": "Nuxt.js: a Minimalist Framework for Creating Universal Vue.js Apps",
-        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
-        "description": "",
-        "tags": "#bootstrap,#ui",
-        "url": "",
-        "links": [
-            {
-                "label": "nuxt v.1",
-                "url": "#",
-                "faIcon": {
-                    "type": "fab",
-                    "name": "github"
-                }
-            }
-            
-        ]
-    },
-    {
-        "id": "primary",
-        "title": "Role Based Authorization for your Vue.js and Nuxt.js Applications Using vue-kindergarten",
-        "image": "https://bootstrap-vue.js.org/_nuxt/img/f0a8c9e.png",
-        "description": "",
-        "tags": "#auth,#security",
-        "links": [
-            {
-                "label": "github",
-                "url": "https://github.com/nuxt-community/axios-module",
-                "faIcon": {
-                    "type": "fab",
-                    "name": "github"
-                }
-            },
-            {
-                "label": "docs",
-                "url": "https://axios.nuxtjs.org/",
-                "faIcon": {
-                    "type": "fas",
-                    "name": "file"
-                }
-            }
-        ]
-    },
-    {
-        "id": "primarye",
-        "title": "Create and publish a Nuxt.js powered website on GitHub pages",
-        "image": "https://buefy.org/static/img/buefy.1d65c18.png",
-        "description": "",
-        "tags": "#bulma,#ui",
-        "links": [
-            {
-                "label": "github",
-                "url": "https://github.com/nuxt-community/axios-module",
-                "faIcon": {
-                    "type": "fab",
-                    "name": "github"
-                }
-            },
-            {
-                "label": "docs",
-                "url": "https://axios.nuxtjs.org/",
-                "faIcon": {
-                    "type": "fas",
-                    "name": "file"
-                }
-            }
-        ]
-    },
-    {
-        "id": "primar4y",
-        "title": "Debugging Nuxt.js with Visual Studio Code",
-        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
-        "description": "",
-        "tags": "#vscode,#debug,#tools ",
-        "links": [
-            {
-                "label": "github",
-                "url": "https://github.com/nuxt-community/axios-module",
-                "faIcon": {
-                    "type": "fab",
-                    "name": "github"
-                }
-            },
-            {
-                "label": "docs",
-                "url": "https://axios.nuxtjs.org/",
-                "faIcon": {
-                    "type": "fas",
-                    "name": "file"
-                }
-            }
-        ]
-    },
-    {
         "id": "developer.okta.com",
         "title": "Build Universal Applications with Nuxt.js",
-        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
+        "datePosted": "April 26, 2019",
+        "image": "",
         "description": "",
         "url": "https://developer.okta.com/blog/2019/04/26/tutorial-build-universal-apps-with-nuxt",
-        "tags": "#vscode,#debug,#tools ",
+        "tags": "#beginner ",
         "links": [
             {
                 "label": "github",
@@ -121,11 +28,66 @@
     },
     {
         "id": "developer.okta.coms",
-        "title": "Tutorial: Build Universal Applications with Nuxt.js",
-        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
+        "title": "Markdown Driven Portfolio website with Nuxt.js",
+        "datePosted": "Jul 18, 2018",
+        "image": "",
         "description": "",
-        "url": "https://developer.okta.com/blog/2019/04/26/tutorial-build-universal-apps-with-nuxt",
-        "tags": "#vscode #debug  #tools ",
+        "url": "https://medium.com/haiiro-io/markdown-driven-portfolio-website-with-nuxt-js-a8d08ffe2712",
+        "tags": "#markdown,#portfolio",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/nuxt-community/axios-module",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://axios.nuxtjs.org/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
+    },
+    {
+        "id": "https://appdividend.com/2018/02/13/nuxt-js-tutorials",
+        "title": "Nuxt Js Tutorial For Beginners 2018",
+        "datePosted": "Feb 22, 2018",
+        "image": "",
+        "description": "",
+        "url": "https://appdividend.com/2018/02/13/nuxt-js-tutorial",
+        "tags": "#beginner",
+        "links": [
+            {
+                "label": "github",
+                "url": "https://github.com/nuxt-community/axios-module",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            },
+            {
+                "label": "docs",
+                "url": "https://axios.nuxtjs.org/",
+                "faIcon": {
+                    "type": "fas",
+                    "name": "file"
+                }
+            }
+        ]
+    },
+    {
+        "id": "https://blog.lichter.io/posts/sending-emails-through-nuxtjs/",
+        "title": "Sending emails through Nuxt.js",
+        "datePosted": "Aug 19, 2018",
+        "image": "",
+        "description": "",
+        "url": "https://blog.lichter.io/posts/sending-emails-through-nuxtjs",
+        "tags": "#email",
         "links": [
             {
                 "label": "github",
@@ -145,6 +107,4 @@
             }
         ]
     }
-
 ]
-
