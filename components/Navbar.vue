@@ -26,7 +26,7 @@
         <nuxt-link to="/tutorials" class="navbar-item">Tutorials</nuxt-link>
         <a class="navbar-item">Series</a>
         <a class="navbar-item">Tools</a>
-        <a class="navbar-item">Showcase</a>
+        <nuxt-link to="/showcase" class="navbar-item">Showcase</nuxt-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">More</a>
