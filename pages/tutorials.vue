@@ -71,15 +71,6 @@ export default {
     }
   },
   computed: {
-    splitTags: function() {
-      const newArr = [...this.tutorials]
-      newArr.map(el => {
-        return (el.tags = el.tags.toString().split(','))
-      })
-
-      return newArr
-    },
-
     filteredDataArray: function() {
       const newArr = [...this.tutorials]
       newArr.map(el => {
@@ -110,10 +101,6 @@ export default {
   },
 
   async asyncData({ $axios }) {},
-  methods: {
-    getModules: function() {
-      return this.tutorials
-    }
-  }
+  methods: {}
 }
 </script>

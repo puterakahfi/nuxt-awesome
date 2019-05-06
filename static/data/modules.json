@@ -1,30 +1,34 @@
 [
     {
         "id": "nuxt-axios",
-        "label": "axios",
-        "image" :"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
+        "title": "axios",
+        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMvsjZDW3Bpij1iMLjx%2Favatar.png?generation=1537529283596225&alt=media",
         "description": "Secure and Easy Axios integration with Nuxt.js. <br/>",
-        "tags": "#bootstrap #ui"
+        "url": "https://axios.nuxtjs.org/",
+        "tags": "#bootstrap,#ui"
     },
     {
-        "id": "primary",
-        "label": "boostrap",
-        "image" : "https://bootstrap-vue.js.org/_nuxt/img/f0a8c9e.png",
+        "id": "nuxt-bootstrap",
+        "title": "boostrap",
+        "image": "https://bootstrap-vue.js.org/_nuxt/img/f0a8c9e.png",
         "description": " the most comprehensive implementations of Bootstrap V4 components and grid system .",
-        "tags": "#bootstrap #ui"
+        "url": "https://bootstrap-vue.js.org/",
+        "tags": "#bootstrap,#ui"
     },
     {
-        "id": "primary",
-        "label": "buefy",
-        "image" : "https://buefy.org/static/img/buefy.1d65c18.png",
+        "id": "nuxt-buefy",
+        "title": "buefy",
+        "image": "https://buefy.org/static/img/buefy.1d65c18.png",
         "description": "Buefy (pronounced /ˈbyo͞oˌfī/, like beau-fy) is a user interface component library made on top of two fresh but very well known frameworks, being them Vue.js and Bulma",
-        "tags": "#bulma #ui"
+        "url": "https://buefy.org/",
+        "tags": "#bulma,#ui"
     },
     {
-        "id": "primary",
-        "label": "auth",
-        "image" : "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
-        "description": "Authentication module for Nuxt.js",       
-        "tags": "#bulma #ui"
+        "id": "nuxt-auth",
+        "title": "auth",
+        "image": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMw2T5O8L4LxENcvYvh%2Favatar.png?generation=1537532095331677&alt=media",
+        "description": "Authentication module for Nuxt.js",
+        "url": "https://auth.nuxtjs.org/",
+        "tags": "#bulma,#ui"
     }
 ]
