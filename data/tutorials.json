@@ -1,0 +1,63 @@
+[
+    {
+        "id": "developer.okta.com",
+        "title": "Build Universal Applications with Nuxt.js",
+        "datePosted": "April 26, 2019",
+        "image": "",
+        "description": "",
+        "url": "https://developer.okta.com/blog/2019/04/26/tutorial-build-universal-apps-with-nuxt",
+        "tags": "#beginner, #nuxtjs"
+       
+    },
+    {
+        "id": "developer.okta.coms",
+        "title": "Markdown Driven Portfolio website with Nuxt.js",
+        "datePosted": "Jul 18, 2018",
+        "image": "",
+        "description": "",
+        "url": "https://medium.com/haiiro-io/markdown-driven-portfolio-website-with-nuxt-js-a8d08ffe2712",
+        "tags": "#markdown,#portfolio"
+        
+    },
+    {
+        "id": "https://appdividend.com/2018/02/13/nuxt-js-tutorials",
+        "title": "Nuxt Js Tutorial For Beginners 2018",
+        "datePosted": "Feb 22, 2018",
+        "image": "",
+        "description": "",
+        "url": "https://appdividend.com/2018/02/13/nuxt-js-tutorial",
+        "tags": "#beginner"
+    },
+    {
+        "id": "https://blog.lichter.io/posts/sending-emails-through-nuxtjs/",
+        "title": "Sending emails through Nuxt.js",
+        "datePosted": "Aug 19, 2018",
+        "image": "",
+        "description": "",
+        "url": "https://blog.lichter.io/posts/sending-emails-through-nuxtjs",
+        "tags": "#email"
+    },
+    {
+        "id": "https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial",
+        "title": "The Complete Guide to Build a Full Blown Multilanguage Website with Nuxt.js ",
+        "datePosted": "Jan 23, 2019 ",
+        "image": "",
+        "description": "",
+        "url": "https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial",
+        "tags": "#multilanguage,#storyblock",
+        "links": [
+            {
+                "label": "demo",
+                "url": "https://nuxtblok.now.sh/"
+            },
+            {
+                "label": "github",
+                "url": "https://github.com/onefriendaday/nuxtjs-multilanguage-website",
+                "faIcon": {
+                    "type": "fab",
+                    "name": "github"
+                }
+            }
+        ]
+    }
+]
